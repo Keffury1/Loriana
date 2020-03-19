@@ -16,9 +16,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Loriana" translatesAutoresizingMaskIntoConstraints="NO" id="BAH-5M-zIc">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="250"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="350"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="250" id="J01-De-lNR"/>
+                                    <constraint firstAttribute="height" constant="350" id="J01-De-lNR"/>
                                 </constraints>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UJ4-Tu-FWb">
@@ -29,11 +29,11 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FKk-IA-Fbk">
                                                 <rect key="frame" x="283" y="110" width="151" height="40"/>
-                                                <color key="backgroundColor" red="0.67996832955307163" green="0.36310097178718914" blue="0.27058068720415213" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="backgroundColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="cgY-Cn-YKh"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="10"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                                 <state key="normal" title="●      BOOK A TOUR">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -52,21 +52,61 @@
                                                 </state>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="L" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R8U-k7-YtX">
-                                                <rect key="frame" x="50" y="265" width="250" height="253"/>
+                                                <rect key="frame" x="50" y="400" width="250" height="253"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="250" id="Xbu-k7-18z"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="200"/>
-                                                <color key="textColor" red="0.71035500979999999" green="0.3443642334" blue="0.17649002280000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="textColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gzb-O5-FMM">
+                                                <rect key="frame" x="20" y="728" width="344" height="237"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="|" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PDa-ne-T6V">
+                                                        <rect key="frame" x="8" y="0.0" width="42" height="198"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="325"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A place as special as the occasion you're celebrating" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gsU-eK-Yl4">
+                                                        <rect key="frame" x="74" y="42" width="196" height="97"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SAN LUIS OBISPO, CA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D8p-TD-ibJ">
+                                                        <rect key="frame" x="72" y="183" width="126" height="15"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="237" id="R0x-SB-pi1"/>
+                                                </constraints>
+                                            </view>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1lh-gt-H2r">
+                                                <rect key="frame" x="58" y="675" width="67" height="53"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="• Scroll">
+                                                    <color key="titleColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
+                                            <constraint firstItem="gzb-O5-FMM" firstAttribute="leading" secondItem="cK6-EP-B89" secondAttribute="leading" constant="20" id="4GC-Dd-izy"/>
                                             <constraint firstItem="DbF-KZ-s1Y" firstAttribute="leading" secondItem="cK6-EP-B89" secondAttribute="leading" constant="50" id="4bp-mp-tOI"/>
+                                            <constraint firstAttribute="trailing" secondItem="gzb-O5-FMM" secondAttribute="trailing" constant="50" id="54M-RQ-Tll"/>
                                             <constraint firstAttribute="height" constant="5000" id="BAJ-Y7-lIC"/>
+                                            <constraint firstItem="gzb-O5-FMM" firstAttribute="top" secondItem="R8U-k7-YtX" secondAttribute="bottom" constant="75" id="DtV-cT-fd2"/>
                                             <constraint firstItem="FKk-IA-Fbk" firstAttribute="top" secondItem="cK6-EP-B89" secondAttribute="top" constant="110" id="HNs-iI-BdT"/>
-                                            <constraint firstItem="R8U-k7-YtX" firstAttribute="top" secondItem="FKk-IA-Fbk" secondAttribute="bottom" constant="115" id="IiY-S6-0pK"/>
+                                            <constraint firstItem="R8U-k7-YtX" firstAttribute="top" secondItem="FKk-IA-Fbk" secondAttribute="bottom" constant="250" id="IiY-S6-0pK"/>
                                             <constraint firstItem="DbF-KZ-s1Y" firstAttribute="top" secondItem="cK6-EP-B89" secondAttribute="top" constant="115" id="YL9-7i-LM1"/>
                                             <constraint firstAttribute="trailing" secondItem="FKk-IA-Fbk" secondAttribute="trailing" constant="-20" id="bK3-wF-vrm"/>
                                             <constraint firstItem="FKk-IA-Fbk" firstAttribute="leading" secondItem="DbF-KZ-s1Y" secondAttribute="trailing" constant="198" id="ePR-1D-eK7"/>
@@ -111,7 +151,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Loriana" width="275" height="183"/>
+        <image name="Loriana" width="1170" height="738"/>
         <image name="line.horizontal.3" catalog="system" width="64" height="32"/>
     </resources>
 </document>
