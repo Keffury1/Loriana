@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hfq-qf-ovk">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mT6-io-kOL">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
@@ -7,151 +7,257 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Main View Controller-->
-        <scene sceneID="Z7I-pP-UMa">
+        <!--View Controller-->
+        <scene sceneID="uZb-VL-CZ5">
             <objects>
-                <viewController id="hfq-qf-ovk" customClass="MainViewController" customModule="Loriana" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Hbk-Qr-AoF">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="5000"/>
+                <viewController id="mT6-io-kOL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xqH-YB-UMF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="2750"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Loriana" translatesAutoresizingMaskIntoConstraints="NO" id="BAH-5M-zIc">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="350"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="350" id="J01-De-lNR"/>
-                                </constraints>
-                            </imageView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UJ4-Tu-FWb">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="5000"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vW2-v7-bTm">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="2750"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cK6-EP-B89">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="5000"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ede-gH-5rT" userLabel="ContentView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2733"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FKk-IA-Fbk">
-                                                <rect key="frame" x="283" y="110" width="151" height="40"/>
-                                                <color key="backgroundColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="cgY-Cn-YKh"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                                <state key="normal" title="●      BOOK A TOUR">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DbF-KZ-s1Y">
-                                                <rect key="frame" x="50" y="120" width="35" height="25.5"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Loriana" translatesAutoresizingMaskIntoConstraints="NO" id="BAH-5M-zIc">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="293"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DbF-KZ-s1Y">
+                                                <rect key="frame" x="45" y="106" width="35" height="25.5"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="35" id="73t-aU-Mlo"/>
-                                                    <constraint firstAttribute="width" secondItem="DbF-KZ-s1Y" secondAttribute="height" multiplier="1:1" id="qIs-Sj-Igv"/>
-                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" backgroundImage="line.horizontal.3" catalog="system">
                                                     <color key="titleColor" red="0.71035500979999999" green="0.3443642334" blue="0.17649002280000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="L" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R8U-k7-YtX">
-                                                <rect key="frame" x="50" y="400" width="250" height="253"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="250" id="Xbu-k7-18z"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="200"/>
-                                                <color key="textColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Loriana" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R8U-k7-YtX">
+                                                <rect key="frame" x="63" y="442" width="288" height="101"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="80"/>
+                                                <color key="textColor" red="0.4527482551" green="0.24521879099999999" blue="0.1155251247" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gzb-O5-FMM">
-                                                <rect key="frame" x="20" y="728" width="344" height="237"/>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gzb-O5-FMM">
+                                                <rect key="frame" x="15" y="687" width="294" height="263"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="|" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PDa-ne-T6V">
-                                                        <rect key="frame" x="8" y="0.0" width="42" height="198"/>
+                                                        <rect key="frame" x="8" y="0.0" width="42" height="224"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="325"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A place as special as the occasion you're celebrating" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gsU-eK-Yl4">
-                                                        <rect key="frame" x="74" y="42" width="196" height="97"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SAN LUIS OBISPO, CA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D8p-TD-ibJ">
-                                                        <rect key="frame" x="72" y="183" width="126" height="15"/>
+                                                        <rect key="frame" x="72" y="209" width="126" height="15"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A place as special as the occasion you're celebrating" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gsU-eK-Yl4">
+                                                        <rect key="frame" x="72" y="27" width="196" height="123"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
                                                 </subviews>
-                                                <color key="backgroundColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="237" id="R0x-SB-pi1"/>
-                                                </constraints>
+                                                <color key="backgroundColor" red="0.45274825507614214" green="0.24521879096590266" blue="0.11552512466783034" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </view>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1lh-gt-H2r">
-                                                <rect key="frame" x="58" y="675" width="67" height="53"/>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kN4-3W-Y58">
+                                                <rect key="frame" x="15" y="997" width="384" height="236"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="• Scroll">
-                                                    <color key="titleColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <subviews>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="We offer an intimate &amp; Italian-inspired retreat that feels worlds away." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="YCT-HX-Zz5">
+                                                        <rect key="frame" x="8" y="100" width="173.5" height="84.5"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WEDDINGS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ykh-GK-Naq">
+                                                        <rect key="frame" x="55" y="74" width="79.5" height="18"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                        <color key="textColor" red="0.50565440189999999" green="0.29329844599999999" blue="0.1191882004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Chairs" translatesAutoresizingMaskIntoConstraints="NO" id="tiF-Gb-MhG">
+                                                        <rect key="frame" x="189.5" y="10" width="164.5" height="326"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="_______" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VkU-z8-NQG">
+                                                        <rect key="frame" x="66" y="163" width="56" height="21"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.50565440189999999" green="0.29329844599999999" blue="0.1191882004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tXO-9B-h68">
+                                                <rect key="frame" x="22" y="1393" width="384" height="226"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Dining Hall" translatesAutoresizingMaskIntoConstraints="NO" id="VzZ-W8-59u">
+                                                        <rect key="frame" x="19" y="-72" width="161" height="267"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Corporate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YIk-TO-9PR">
+                                                        <rect key="frame" x="243" y="50" width="79" height="23"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                        <color key="textColor" red="0.50565440189999999" green="0.29329844599999999" blue="0.1191882004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Experience our warm hospitality from California’s Central Coast." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Xvw-hA-z1K">
+                                                        <rect key="frame" x="189" y="81" width="187" height="71"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="_______" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I5J-3A-oNT">
+                                                        <rect key="frame" x="257" y="148" width="51" height="16"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.50565440189999999" green="0.29329844599999999" blue="0.1191882004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="We’re situated in the coastal wine country halfway between San Francisco and Los Angeles." translatesAutoresizingMaskIntoConstraints="NO" id="Ff6-PY-280">
+                                                <rect key="frame" x="63" y="1666" width="229" height="69"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="|" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MQy-hO-Vdw">
+                                                <rect key="frame" x="17" y="1627" width="41" height="163"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="150"/>
+                                                <color key="textColor" red="0.50565440189999999" green="0.29329844599999999" blue="0.1191882004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="asB-6B-ROH">
+                                                <rect key="frame" x="63" y="1761" width="154" height="29"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <state key="normal" title="Local Recomendations">
+                                                    <color key="titleColor" red="0.50565440189999999" green="0.29329844599999999" blue="0.1191882004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Table" translatesAutoresizingMaskIntoConstraints="NO" id="a52-r2-tAa">
+                                                <rect key="frame" x="279" y="1761" width="120" height="201"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Glass" translatesAutoresizingMaskIntoConstraints="NO" id="Z9G-bc-KCy">
+                                                <rect key="frame" x="149" y="1830" width="122" height="201"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Living Room" translatesAutoresizingMaskIntoConstraints="NO" id="Hu6-Fe-TOb">
+                                                <rect key="frame" x="17" y="1902" width="123" height="201"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aZf-6S-fpV">
+                                                <rect key="frame" x="20" y="2239" width="380" height="393"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="|" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dl6-Va-42I">
+                                                        <rect key="frame" x="24" y="-46" width="48" height="209"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="175"/>
+                                                        <color key="textColor" red="0.97635799646377563" green="0.92782282829284668" blue="0.92655700445175171" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Loriana" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sAH-W1-WDm">
+                                                        <rect key="frame" x="118" y="101" width="144" height="62"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="49"/>
+                                                        <color key="textColor" red="0.97635799646377563" green="0.92782282829284668" blue="0.92655700445175171" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9fI-cT-N5w">
+                                                        <rect key="frame" x="70" y="257" width="240" height="105"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" red="0.50565440189999999" green="0.29329844599999999" blue="0.1191882004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <string key="text">500 WEST ORMONDE ROAD
+SAN LUIS OBISPO, CA 93401  OFFICE@LORIANASLO.COM
+805.710.9868</string>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.50565440189999999" green="0.29329844599999999" blue="0.1191882004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="© 2020 LORIANA, ALL RIGHTS RESERVED" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jPL-q9-dEr">
+                                                <rect key="frame" x="44" y="2687" width="326" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.50565440189999999" green="0.29329844599999999" blue="0.1191882004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FKk-IA-Fbk">
+                                                <rect key="frame" x="279" y="95" width="144" height="47"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.50565440189999999" green="0.29329844599999999" blue="0.1191882004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                <state key="normal" title="●      BOOK A TOUR">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstItem="gzb-O5-FMM" firstAttribute="leading" secondItem="cK6-EP-B89" secondAttribute="leading" constant="20" id="4GC-Dd-izy"/>
-                                            <constraint firstItem="DbF-KZ-s1Y" firstAttribute="leading" secondItem="cK6-EP-B89" secondAttribute="leading" constant="50" id="4bp-mp-tOI"/>
-                                            <constraint firstAttribute="trailing" secondItem="gzb-O5-FMM" secondAttribute="trailing" constant="50" id="54M-RQ-Tll"/>
-                                            <constraint firstAttribute="height" constant="5000" id="BAJ-Y7-lIC"/>
-                                            <constraint firstItem="gzb-O5-FMM" firstAttribute="top" secondItem="R8U-k7-YtX" secondAttribute="bottom" constant="75" id="DtV-cT-fd2"/>
-                                            <constraint firstItem="FKk-IA-Fbk" firstAttribute="top" secondItem="cK6-EP-B89" secondAttribute="top" constant="110" id="HNs-iI-BdT"/>
-                                            <constraint firstItem="R8U-k7-YtX" firstAttribute="top" secondItem="FKk-IA-Fbk" secondAttribute="bottom" constant="250" id="IiY-S6-0pK"/>
-                                            <constraint firstItem="DbF-KZ-s1Y" firstAttribute="top" secondItem="cK6-EP-B89" secondAttribute="top" constant="115" id="YL9-7i-LM1"/>
-                                            <constraint firstAttribute="trailing" secondItem="FKk-IA-Fbk" secondAttribute="trailing" constant="-20" id="bK3-wF-vrm"/>
-                                            <constraint firstItem="FKk-IA-Fbk" firstAttribute="leading" secondItem="DbF-KZ-s1Y" secondAttribute="trailing" constant="198" id="ePR-1D-eK7"/>
-                                            <constraint firstItem="R8U-k7-YtX" firstAttribute="leading" secondItem="DbF-KZ-s1Y" secondAttribute="leading" id="l9y-dC-cw0"/>
-                                        </constraints>
+                                        <color key="backgroundColor" red="0.97635799646377563" green="0.92782282829284668" blue="0.92655700445175171" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="cK6-EP-B89" secondAttribute="bottom" id="ESe-rL-zXv"/>
-                                    <constraint firstItem="cK6-EP-B89" firstAttribute="centerX" secondItem="UJ4-Tu-FWb" secondAttribute="centerX" id="MBM-mz-ESW"/>
-                                    <constraint firstAttribute="trailing" secondItem="cK6-EP-B89" secondAttribute="trailing" id="cxF-JR-puC"/>
-                                    <constraint firstItem="cK6-EP-B89" firstAttribute="centerY" secondItem="UJ4-Tu-FWb" secondAttribute="centerY" id="f1h-LN-HuS"/>
-                                    <constraint firstItem="cK6-EP-B89" firstAttribute="top" secondItem="UJ4-Tu-FWb" secondAttribute="top" id="sfW-pO-fIU"/>
-                                    <constraint firstItem="cK6-EP-B89" firstAttribute="leading" secondItem="UJ4-Tu-FWb" secondAttribute="leading" id="swc-XW-TJT"/>
+                                    <constraint firstAttribute="trailing" secondItem="ede-gH-5rT" secondAttribute="trailing" id="QUJ-sN-SLf"/>
+                                    <constraint firstAttribute="bottom" secondItem="ede-gH-5rT" secondAttribute="bottom" id="Uiz-lc-ZNb"/>
+                                    <constraint firstItem="ede-gH-5rT" firstAttribute="top" secondItem="vW2-v7-bTm" secondAttribute="top" id="VN9-Vh-D60"/>
+                                    <constraint firstItem="ede-gH-5rT" firstAttribute="leading" secondItem="vW2-v7-bTm" secondAttribute="leading" id="t9b-kF-qoT"/>
                                 </constraints>
-                                <viewLayoutGuide key="contentLayoutGuide" id="uzs-8i-wdu"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="p83-0Z-aBH"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="3p7-oV-WNX"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="OLf-mz-aoc"/>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.97635799646377563" green="0.92782282829284668" blue="0.92655700445175171" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="BAH-5M-zIc" firstAttribute="leading" secondItem="9SZ-YI-3Rd" secondAttribute="leading" id="32V-8i-RsS"/>
-                            <constraint firstItem="cK6-EP-B89" firstAttribute="width" secondItem="Hbk-Qr-AoF" secondAttribute="width" id="OEE-Fp-c01"/>
-                            <constraint firstItem="UJ4-Tu-FWb" firstAttribute="leading" secondItem="Hbk-Qr-AoF" secondAttribute="leading" id="R6e-Uo-Mjh"/>
-                            <constraint firstAttribute="trailing" secondItem="UJ4-Tu-FWb" secondAttribute="trailing" id="XWQ-n9-PgO"/>
-                            <constraint firstItem="BAH-5M-zIc" firstAttribute="top" secondItem="Hbk-Qr-AoF" secondAttribute="top" id="grK-pQ-ful"/>
-                            <constraint firstAttribute="bottom" secondItem="UJ4-Tu-FWb" secondAttribute="bottom" id="ii6-f0-Cha"/>
-                            <constraint firstItem="UJ4-Tu-FWb" firstAttribute="top" secondItem="Hbk-Qr-AoF" secondAttribute="top" id="uKa-4N-r7f"/>
-                            <constraint firstItem="BAH-5M-zIc" firstAttribute="trailing" secondItem="9SZ-YI-3Rd" secondAttribute="trailing" id="xhY-1b-X8Q"/>
+                            <constraint firstItem="Ctq-bU-aLb" firstAttribute="top" secondItem="vW2-v7-bTm" secondAttribute="top" constant="44" id="GzD-rT-ZMP"/>
+                            <constraint firstItem="ede-gH-5rT" firstAttribute="height" secondItem="xqH-YB-UMF" secondAttribute="height" multiplier="0.993818" id="WI8-59-ChI"/>
+                            <constraint firstItem="vW2-v7-bTm" firstAttribute="leading" secondItem="Ctq-bU-aLb" secondAttribute="leading" id="aTL-sA-9WR"/>
+                            <constraint firstItem="vW2-v7-bTm" firstAttribute="bottom" secondItem="Ctq-bU-aLb" secondAttribute="bottom" constant="34" id="lVd-LC-pa0"/>
+                            <constraint firstItem="ede-gH-5rT" firstAttribute="width" secondItem="xqH-YB-UMF" secondAttribute="width" id="sIq-6i-Vow"/>
+                            <constraint firstItem="Ctq-bU-aLb" firstAttribute="trailing" secondItem="vW2-v7-bTm" secondAttribute="trailing" id="xhr-Cz-gy7"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="9SZ-YI-3Rd"/>
+                        <viewLayoutGuide key="safeArea" id="Ctq-bU-aLb"/>
                     </view>
-                    <size key="freeformSize" width="414" height="5000"/>
-                    <connections>
-                        <outlet property="tourButton" destination="FKk-IA-Fbk" id="hlE-3p-Eke"/>
-                    </connections>
+                    <size key="freeformSize" width="414" height="2750"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="z87-hD-31u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gmf-pu-mSI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-182.60869565217394" y="142.63392857142856"/>
+            <point key="canvasLocation" x="-436.23188405797106" y="176.11607142857142"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Chairs" width="1000" height="1500"/>
+        <image name="Dining Hall" width="320" height="320"/>
+        <image name="Glass" width="758" height="1132"/>
+        <image name="Living Room" width="760" height="1130"/>
         <image name="Loriana" width="1170" height="738"/>
+        <image name="Table" width="762" height="1136"/>
         <image name="line.horizontal.3" catalog="system" width="64" height="32"/>
     </resources>
 </document>
