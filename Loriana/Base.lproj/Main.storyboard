@@ -491,6 +491,7 @@ SAN LUIS OBISPO, CA 93401  OFFICE@LORIANASLO.COM
                         <outlet property="menuButton1" destination="DbF-KZ-s1Y" id="cXn-HB-W4W"/>
                         <outlet property="menuButton2" destination="UmO-cm-dmN" id="0ji-xS-7Pr"/>
                         <outlet property="menuView" destination="pJr-ap-e27" id="xxS-9P-syb"/>
+                        <outlet property="scrollView" destination="vW2-v7-bTm" id="Zoz-Fa-B1V"/>
                         <outlet property="weddingsTextField" destination="YCT-HX-Zz5" id="7Me-Rt-XbB"/>
                     </connections>
                 </viewController>

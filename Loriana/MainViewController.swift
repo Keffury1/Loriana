@@ -14,6 +14,7 @@ class MainViewController: UIViewController {
     
     //MARK: - Outlets
     
+    @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var bookTourButton: UIButton!
     @IBOutlet weak var weddingsTextField: UITextView!
     @IBOutlet weak var corporateTextField: UITextView!
@@ -27,6 +28,7 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
         
         setupSubviews()
+        scrollView.delegate = self
     }
     
     //MARK: - Methods
@@ -78,4 +80,10 @@ class MainViewController: UIViewController {
         menuOff()
     }
     
+}
+
+extension MainViewController: UIScrollViewDelegate {
+    func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
+        menuOff()
+    }
 }
