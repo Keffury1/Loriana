@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="uZb-VL-CZ5">
             <objects>
-                <viewController id="mT6-io-kOL" sceneMemberID="viewController">
+                <viewController id="mT6-io-kOL" customClass="MainViewController" customModule="Loriana" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xqH-YB-UMF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="3000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -380,7 +380,7 @@ SAN LUIS OBISPO, CA 93401  OFFICE@LORIANASLO.COM
                                 <viewLayoutGuide key="frameLayoutGuide" id="OLf-mz-aoc"/>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.97635799646377563" green="0.92782282829284668" blue="0.92655700445175171" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="FKk-IA-Fbk" firstAttribute="top" secondItem="Ctq-bU-aLb" secondAttribute="top" constant="50" id="2Ec-Um-D6W"/>
                             <constraint firstAttribute="bottom" secondItem="vW2-v7-bTm" secondAttribute="bottom" id="MZ0-pO-glU"/>
@@ -393,6 +393,11 @@ SAN LUIS OBISPO, CA 93401  OFFICE@LORIANASLO.COM
                         <viewLayoutGuide key="safeArea" id="Ctq-bU-aLb"/>
                     </view>
                     <size key="freeformSize" width="414" height="3000"/>
+                    <connections>
+                        <outlet property="bookTourButton" destination="FKk-IA-Fbk" id="tKC-mt-PhN"/>
+                        <outlet property="corporateTextField" destination="Xvw-hA-z1K" id="CIr-4T-Jkz"/>
+                        <outlet property="weddingsTextField" destination="YCT-HX-Zz5" id="7Me-Rt-XbB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gmf-pu-mSI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
