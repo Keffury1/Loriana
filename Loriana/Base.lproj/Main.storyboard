@@ -312,6 +312,9 @@ SAN LUIS OBISPO, CA 93401  OFFICE@LORIANASLO.COM
                                                 <state key="normal" title="●      BOOK A TOUR">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="Ncb-Vs-P0n" kind="presentation" identifier="bookTourSegue" modalPresentationStyle="fullScreen" id="hiB-SL-YQp"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DbF-KZ-s1Y">
                                                 <rect key="frame" x="40" y="104" width="50" height="30.5"/>
@@ -355,42 +358,63 @@ SAN LUIS OBISPO, CA 93401  OFFICE@LORIANASLO.COM
                                                                 <state key="normal" title="STORY">
                                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </state>
+                                                                <connections>
+                                                                    <segue destination="FbF-Bn-FYT" kind="presentation" identifier="storySegue" modalPresentationStyle="fullScreen" id="hRO-kb-txC"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tIF-Ex-NtJ">
                                                                 <rect key="frame" x="20.5" y="73" width="80" height="30"/>
                                                                 <state key="normal" title="WEDDINGS">
                                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </state>
+                                                                <connections>
+                                                                    <segue destination="mDW-eT-9ga" kind="presentation" identifier="weddingsSegue" modalPresentationStyle="fullScreen" id="7wT-5h-6F1"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gr4-jT-NX5">
                                                                 <rect key="frame" x="16" y="146" width="89" height="30"/>
                                                                 <state key="normal" title="CORPORATE">
                                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </state>
+                                                                <connections>
+                                                                    <segue destination="LT4-Jw-E9D" kind="presentation" identifier="corporateSegue" modalPresentationStyle="fullScreen" id="M2X-dr-wQa"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uC8-tE-yHt">
                                                                 <rect key="frame" x="0.0" y="219" width="121" height="30"/>
                                                                 <state key="normal" title="CENTRAL COAST">
                                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </state>
+                                                                <connections>
+                                                                    <segue destination="k0W-wy-ovW" kind="presentation" identifier="centralCoastSegue" modalPresentationStyle="fullScreen" id="Nv9-ar-d5X"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p7m-ri-UIj">
                                                                 <rect key="frame" x="25.5" y="292" width="70" height="30"/>
                                                                 <state key="normal" title="CONTACT">
                                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </state>
+                                                                <connections>
+                                                                    <segue destination="oJ4-DS-pPH" kind="presentation" identifier="contactSegue" modalPresentationStyle="fullScreen" id="sRi-td-QEu"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZhM-1k-spk">
                                                                 <rect key="frame" x="5" y="365" width="111" height="30"/>
                                                                 <state key="normal" title="FOR PLANNERS">
                                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </state>
+                                                                <connections>
+                                                                    <segue destination="MW8-5E-Btc" kind="presentation" identifier="forPlannersSegue" modalPresentationStyle="fullScreen" id="i95-dJ-FuZ"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="itq-9S-km5">
                                                                 <rect key="frame" x="38" y="438" width="45" height="30"/>
                                                                 <state key="normal" title="LOGIN">
                                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </state>
+                                                                <connections>
+                                                                    <segue destination="nhY-Yr-uwi" kind="presentation" identifier="loginSegue" modalPresentationStyle="fullScreen" id="ihB-MH-BPS"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                     </stackView>
@@ -498,6 +522,70 @@ SAN LUIS OBISPO, CA 93401  OFFICE@LORIANASLO.COM
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gmf-pu-mSI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-436.23188405797106" y="176.11607142857142"/>
+        </scene>
+        <!--Storyboard Reference-->
+        <scene sceneID="dTs-qT-Smd">
+            <objects>
+                <viewControllerPlaceholder id="Ncb-Vs-P0n" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pz9-x8-jQC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="411" y="-936"/>
+        </scene>
+        <!--Storyboard Reference-->
+        <scene sceneID="4HA-n3-gNn">
+            <objects>
+                <viewControllerPlaceholder id="FbF-Bn-FYT" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bog-mm-9RS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="412" y="-822"/>
+        </scene>
+        <!--Storyboard Reference-->
+        <scene sceneID="GEb-iu-mEI">
+            <objects>
+                <viewControllerPlaceholder id="mDW-eT-9ga" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Knj-VS-A9v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="411" y="-771"/>
+        </scene>
+        <!--Storyboard Reference-->
+        <scene sceneID="wQc-zE-tZg">
+            <objects>
+                <viewControllerPlaceholder id="LT4-Jw-E9D" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="txk-MM-7tY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="411" y="-723"/>
+        </scene>
+        <!--Storyboard Reference-->
+        <scene sceneID="kPQ-k1-3Wq">
+            <objects>
+                <viewControllerPlaceholder id="k0W-wy-ovW" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eT9-fr-eff" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="411" y="-670"/>
+        </scene>
+        <!--Storyboard Reference-->
+        <scene sceneID="g3h-Pk-xzC">
+            <objects>
+                <viewControllerPlaceholder id="oJ4-DS-pPH" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nun-Oh-L5q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="411" y="-619"/>
+        </scene>
+        <!--Storyboard Reference-->
+        <scene sceneID="PNS-5M-ftd">
+            <objects>
+                <viewControllerPlaceholder id="MW8-5E-Btc" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NR3-GY-V1B" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="411" y="-569"/>
+        </scene>
+        <!--Storyboard Reference-->
+        <scene sceneID="aNh-0f-S0R">
+            <objects>
+                <viewControllerPlaceholder id="nhY-Yr-uwi" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="52w-Yq-9ib" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="411" y="-516"/>
         </scene>
     </scenes>
     <resources>
