@@ -325,56 +325,81 @@ SAN LUIS OBISPO, CA 93401  OFFICE@LORIANASLO.COM
                                                 <state key="normal" backgroundImage="line.horizontal.3" catalog="system">
                                                     <color key="titleColor" red="0.71035500979999999" green="0.3443642334" blue="0.17649002280000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="menuButton1Tapped:" destination="mT6-io-kOL" eventType="touchUpInside" id="tT0-Iw-bns"/>
+                                                </connections>
                                             </button>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pJr-ap-e27">
+                                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pJr-ap-e27">
                                                 <rect key="frame" x="0.0" y="0.0" width="240" height="750"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UmO-cm-dmN">
-                                                        <rect key="frame" x="19" y="120" width="46" height="28"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UmO-cm-dmN">
+                                                        <rect key="frame" x="40" y="104" width="50" height="30.5"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="50" id="AZ5-3D-XWH"/>
+                                                            <constraint firstAttribute="height" constant="40" id="fdC-ZS-h1v"/>
+                                                        </constraints>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <state key="normal" title="Button" backgroundImage="line.horizontal.3" catalog="system">
+                                                        <state key="normal" backgroundImage="line.horizontal.3" catalog="system">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="menuButton2Tapped:" destination="mT6-io-kOL" eventType="touchUpInside" id="as7-FX-AYH"/>
+                                                        </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tIF-Ex-NtJ">
-                                                        <rect key="frame" x="8" y="279" width="46" height="30"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <state key="normal" title="Button"/>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gr4-jT-NX5">
-                                                        <rect key="frame" x="8" y="360" width="46" height="30"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <state key="normal" title="Button"/>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uC8-tE-yHt">
-                                                        <rect key="frame" x="8" y="449" width="46" height="30"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <state key="normal" title="Button"/>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p7m-ri-UIj">
-                                                        <rect key="frame" x="8" y="531" width="46" height="30"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <state key="normal" title="Button"/>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZhM-1k-spk">
-                                                        <rect key="frame" x="8" y="587" width="46" height="30"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <state key="normal" title="Button"/>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="itq-9S-km5">
-                                                        <rect key="frame" x="8" y="667" width="46" height="30"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <state key="normal" title="Button"/>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vMM-wE-atm">
-                                                        <rect key="frame" x="8" y="225" width="46" height="30"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <state key="normal" title="Button"/>
-                                                    </button>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="43" translatesAutoresizingMaskIntoConstraints="NO" id="JsN-Hj-JrY">
+                                                        <rect key="frame" x="4.5" y="189" width="121" height="468"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vMM-wE-atm">
+                                                                <rect key="frame" x="36" y="0.0" width="49" height="30"/>
+                                                                <state key="normal" title="STORY">
+                                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tIF-Ex-NtJ">
+                                                                <rect key="frame" x="20.5" y="73" width="80" height="30"/>
+                                                                <state key="normal" title="WEDDINGS">
+                                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gr4-jT-NX5">
+                                                                <rect key="frame" x="16" y="146" width="89" height="30"/>
+                                                                <state key="normal" title="CORPORATE">
+                                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uC8-tE-yHt">
+                                                                <rect key="frame" x="0.0" y="219" width="121" height="30"/>
+                                                                <state key="normal" title="CENTRAL COAST">
+                                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p7m-ri-UIj">
+                                                                <rect key="frame" x="25.5" y="292" width="70" height="30"/>
+                                                                <state key="normal" title="CONTACT">
+                                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZhM-1k-spk">
+                                                                <rect key="frame" x="5" y="365" width="111" height="30"/>
+                                                                <state key="normal" title="FOR PLANNERS">
+                                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="itq-9S-km5">
+                                                                <rect key="frame" x="38" y="438" width="45" height="30"/>
+                                                                <state key="normal" title="LOGIN">
+                                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
                                                 </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="JsN-Hj-JrY" firstAttribute="top" secondItem="UmO-cm-dmN" secondAttribute="bottom" constant="100" id="0Mf-2v-LrP"/>
+                                                    <constraint firstItem="JsN-Hj-JrY" firstAttribute="leading" secondItem="UmO-cm-dmN" secondAttribute="leading" id="Ig1-Ho-2Lw"/>
+                                                </constraints>
                                             </view>
                                         </subviews>
                                         <color key="backgroundColor" red="0.97635799646377563" green="0.92782282829284668" blue="0.92655700445175171" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -448,9 +473,11 @@ SAN LUIS OBISPO, CA 93401  OFFICE@LORIANASLO.COM
                         <color key="backgroundColor" red="0.97635799646377563" green="0.92782282829284668" blue="0.92655700445175171" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="FKk-IA-Fbk" firstAttribute="top" secondItem="Ctq-bU-aLb" secondAttribute="top" constant="50" id="2Ec-Um-D6W"/>
+                            <constraint firstItem="UmO-cm-dmN" firstAttribute="leading" secondItem="Ctq-bU-aLb" secondAttribute="leading" constant="40" id="Idh-ZN-buN"/>
                             <constraint firstAttribute="bottom" secondItem="vW2-v7-bTm" secondAttribute="bottom" id="MZ0-pO-glU"/>
                             <constraint firstItem="vW2-v7-bTm" firstAttribute="top" secondItem="xqH-YB-UMF" secondAttribute="top" id="UWn-R2-ZRq"/>
                             <constraint firstItem="vW2-v7-bTm" firstAttribute="leading" secondItem="xqH-YB-UMF" secondAttribute="leading" id="aTL-sA-9WR"/>
+                            <constraint firstItem="UmO-cm-dmN" firstAttribute="top" secondItem="Ctq-bU-aLb" secondAttribute="top" constant="55" id="fpL-Fm-abr"/>
                             <constraint firstItem="DbF-KZ-s1Y" firstAttribute="leading" secondItem="Ctq-bU-aLb" secondAttribute="leading" constant="40" id="nlI-n0-IR3"/>
                             <constraint firstItem="ede-gH-5rT" firstAttribute="width" secondItem="xqH-YB-UMF" secondAttribute="width" id="sIq-6i-Vow"/>
                             <constraint firstAttribute="trailing" secondItem="vW2-v7-bTm" secondAttribute="trailing" id="xhr-Cz-gy7"/>
@@ -461,6 +488,8 @@ SAN LUIS OBISPO, CA 93401  OFFICE@LORIANASLO.COM
                     <connections>
                         <outlet property="bookTourButton" destination="FKk-IA-Fbk" id="tKC-mt-PhN"/>
                         <outlet property="corporateTextField" destination="Xvw-hA-z1K" id="CIr-4T-Jkz"/>
+                        <outlet property="menuButton1" destination="DbF-KZ-s1Y" id="cXn-HB-W4W"/>
+                        <outlet property="menuButton2" destination="UmO-cm-dmN" id="0ji-xS-7Pr"/>
                         <outlet property="menuView" destination="pJr-ap-e27" id="xxS-9P-syb"/>
                         <outlet property="weddingsTextField" destination="YCT-HX-Zz5" id="7Me-Rt-XbB"/>
                     </connections>

@@ -18,6 +18,8 @@ class MainViewController: UIViewController {
     @IBOutlet weak var weddingsTextField: UITextView!
     @IBOutlet weak var corporateTextField: UITextView!
     @IBOutlet weak var menuView: UIView!
+    @IBOutlet weak var menuButton1: UIButton!
+    @IBOutlet weak var menuButton2: UIButton!
     
     //MARK: - Views
     
@@ -49,12 +51,18 @@ class MainViewController: UIViewController {
     }
     
     func menuOn() {
+        menuButton1.isEnabled = false
+        menuButton2.isEnabled = true
+        
         UIView.animate(withDuration: 1.0, animations: {
             self.menuView.alpha = 1
         })
     }
     
     func menuOff() {
+        menuButton2.isEnabled = false
+        menuButton1.isEnabled = true
+        
         UIView.animate(withDuration: 1.0, animations: {
             self.menuView.alpha = 0
         })
@@ -62,6 +70,12 @@ class MainViewController: UIViewController {
     
     
     //MARK: - Actions
-
-
+    @IBAction func menuButton1Tapped(_ sender: Any) {
+        menuOn()
+    }
+    
+    @IBAction func menuButton2Tapped(_ sender: Any) {
+        menuOff()
+    }
+    
 }
