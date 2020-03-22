@@ -13,6 +13,14 @@
 		372DAC2F241EFECB00711157 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372DAC2E241EFECB00711157 /* Assets.xcassets */; };
 		372DAC32241EFECB00711157 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 372DAC30241EFECB00711157 /* LaunchScreen.storyboard */; };
 		37A8AEDE2423106C003B690B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A8AEDD2423106C003B690B /* MainViewController.swift */; };
+		37C3C6BA24281995009885E8 /* BookATour.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37C3C6B924281995009885E8 /* BookATour.storyboard */; };
+		37C3C6BC242819A1009885E8 /* Story.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37C3C6BB242819A1009885E8 /* Story.storyboard */; };
+		37C3C6BE242819B6009885E8 /* Weddings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37C3C6BD242819B6009885E8 /* Weddings.storyboard */; };
+		37C3C6C0242819BE009885E8 /* Corporate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37C3C6BF242819BE009885E8 /* Corporate.storyboard */; };
+		37C3C6C2242819C9009885E8 /* Central Coast.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37C3C6C1242819C9009885E8 /* Central Coast.storyboard */; };
+		37C3C6C4242819D2009885E8 /* Contact.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37C3C6C3242819D2009885E8 /* Contact.storyboard */; };
+		37C3C6C6242819DA009885E8 /* Planners.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37C3C6C5242819DA009885E8 /* Planners.storyboard */; };
+		37C3C6C8242819E6009885E8 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37C3C6C7242819E6009885E8 /* Login.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		372DAC31241EFECB00711157 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		372DAC33241EFECB00711157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37A8AEDD2423106C003B690B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		37C3C6B924281995009885E8 /* BookATour.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BookATour.storyboard; sourceTree = "<group>"; };
+		37C3C6BB242819A1009885E8 /* Story.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Story.storyboard; sourceTree = "<group>"; };
+		37C3C6BD242819B6009885E8 /* Weddings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Weddings.storyboard; sourceTree = "<group>"; };
+		37C3C6BF242819BE009885E8 /* Corporate.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Corporate.storyboard; sourceTree = "<group>"; };
+		37C3C6C1242819C9009885E8 /* Central Coast.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Central Coast.storyboard"; sourceTree = "<group>"; };
+		37C3C6C3242819D2009885E8 /* Contact.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Contact.storyboard; sourceTree = "<group>"; };
+		37C3C6C5242819DA009885E8 /* Planners.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Planners.storyboard; sourceTree = "<group>"; };
+		37C3C6C7242819E6009885E8 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +95,14 @@
 			children = (
 				372DAC2B241EFEC900711157 /* Main.storyboard */,
 				372DAC30241EFECB00711157 /* LaunchScreen.storyboard */,
+				37C3C6B924281995009885E8 /* BookATour.storyboard */,
+				37C3C6BB242819A1009885E8 /* Story.storyboard */,
+				37C3C6BD242819B6009885E8 /* Weddings.storyboard */,
+				37C3C6BF242819BE009885E8 /* Corporate.storyboard */,
+				37C3C6C1242819C9009885E8 /* Central Coast.storyboard */,
+				37C3C6C3242819D2009885E8 /* Contact.storyboard */,
+				37C3C6C5242819DA009885E8 /* Planners.storyboard */,
+				37C3C6C7242819E6009885E8 /* Login.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -165,9 +189,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37C3C6C0242819BE009885E8 /* Corporate.storyboard in Resources */,
+				37C3C6C4242819D2009885E8 /* Contact.storyboard in Resources */,
 				372DAC32241EFECB00711157 /* LaunchScreen.storyboard in Resources */,
+				37C3C6C2242819C9009885E8 /* Central Coast.storyboard in Resources */,
 				372DAC2F241EFECB00711157 /* Assets.xcassets in Resources */,
+				37C3C6BC242819A1009885E8 /* Story.storyboard in Resources */,
+				37C3C6BE242819B6009885E8 /* Weddings.storyboard in Resources */,
+				37C3C6BA24281995009885E8 /* BookATour.storyboard in Resources */,
 				372DAC2D241EFEC900711157 /* Main.storyboard in Resources */,
+				37C3C6C6242819DA009885E8 /* Planners.storyboard in Resources */,
+				37C3C6C8242819E6009885E8 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

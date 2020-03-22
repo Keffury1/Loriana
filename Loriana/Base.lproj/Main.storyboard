@@ -523,69 +523,69 @@ SAN LUIS OBISPO, CA 93401  OFFICE@LORIANASLO.COM
             </objects>
             <point key="canvasLocation" x="-436.23188405797106" y="176.11607142857142"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--BookATour-->
         <scene sceneID="dTs-qT-Smd">
             <objects>
-                <viewControllerPlaceholder id="Ncb-Vs-P0n" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="BookATour" id="Ncb-Vs-P0n" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pz9-x8-jQC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="411" y="-936"/>
+            <point key="canvasLocation" x="362" y="-936"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--Story-->
         <scene sceneID="4HA-n3-gNn">
             <objects>
-                <viewControllerPlaceholder id="FbF-Bn-FYT" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="Story" id="FbF-Bn-FYT" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bog-mm-9RS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="412" y="-822"/>
+            <point key="canvasLocation" x="337" y="-814"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--Weddings-->
         <scene sceneID="GEb-iu-mEI">
             <objects>
-                <viewControllerPlaceholder id="mDW-eT-9ga" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="Weddings" id="mDW-eT-9ga" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Knj-VS-A9v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="411" y="-771"/>
+            <point key="canvasLocation" x="357" y="-770"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--Corporate-->
         <scene sceneID="wQc-zE-tZg">
             <objects>
-                <viewControllerPlaceholder id="LT4-Jw-E9D" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="Corporate" id="LT4-Jw-E9D" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="txk-MM-7tY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="411" y="-723"/>
+            <point key="canvasLocation" x="358" y="-721"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--Central Coast-->
         <scene sceneID="kPQ-k1-3Wq">
             <objects>
-                <viewControllerPlaceholder id="k0W-wy-ovW" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="Central Coast" id="k0W-wy-ovW" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eT9-fr-eff" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="411" y="-670"/>
+            <point key="canvasLocation" x="373" y="-671"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--Contact-->
         <scene sceneID="g3h-Pk-xzC">
             <objects>
-                <viewControllerPlaceholder id="oJ4-DS-pPH" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="Contact" id="oJ4-DS-pPH" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nun-Oh-L5q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="411" y="-619"/>
+            <point key="canvasLocation" x="348" y="-621"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--Planners-->
         <scene sceneID="PNS-5M-ftd">
             <objects>
-                <viewControllerPlaceholder id="MW8-5E-Btc" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="Planners" id="MW8-5E-Btc" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NR3-GY-V1B" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="411" y="-569"/>
+            <point key="canvasLocation" x="351" y="-571"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--Login-->
         <scene sceneID="aNh-0f-S0R">
             <objects>
-                <viewControllerPlaceholder id="nhY-Yr-uwi" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="Login" id="nhY-Yr-uwi" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="52w-Yq-9ib" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="411" y="-516"/>
+            <point key="canvasLocation" x="336" y="-518"/>
         </scene>
     </scenes>
     <resources>
