@@ -21,6 +21,14 @@
 		37C3C6C4242819D2009885E8 /* Contact.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37C3C6C3242819D2009885E8 /* Contact.storyboard */; };
 		37C3C6C6242819DA009885E8 /* Planners.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37C3C6C5242819DA009885E8 /* Planners.storyboard */; };
 		37C3C6C8242819E6009885E8 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37C3C6C7242819E6009885E8 /* Login.storyboard */; };
+		37C3C6CA24281ABB009885E8 /* BookATourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C3C6C924281ABB009885E8 /* BookATourViewController.swift */; };
+		37C3C6CC24281AC2009885E8 /* StoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C3C6CB24281AC2009885E8 /* StoryViewController.swift */; };
+		37C3C6CE24281ACA009885E8 /* WeddingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C3C6CD24281ACA009885E8 /* WeddingsViewController.swift */; };
+		37C3C6D024281AD3009885E8 /* CorporateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C3C6CF24281AD3009885E8 /* CorporateViewController.swift */; };
+		37C3C6D224281ADD009885E8 /* CentralCoastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C3C6D124281ADD009885E8 /* CentralCoastViewController.swift */; };
+		37C3C6D424281AE4009885E8 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C3C6D324281AE4009885E8 /* ContactViewController.swift */; };
+		37C3C6D624281AEE009885E8 /* PlannersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C3C6D524281AEE009885E8 /* PlannersViewController.swift */; };
+		37C3C6D824281AF7009885E8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C3C6D724281AF7009885E8 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +48,14 @@
 		37C3C6C3242819D2009885E8 /* Contact.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Contact.storyboard; sourceTree = "<group>"; };
 		37C3C6C5242819DA009885E8 /* Planners.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Planners.storyboard; sourceTree = "<group>"; };
 		37C3C6C7242819E6009885E8 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		37C3C6C924281ABB009885E8 /* BookATourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookATourViewController.swift; sourceTree = "<group>"; };
+		37C3C6CB24281AC2009885E8 /* StoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewController.swift; sourceTree = "<group>"; };
+		37C3C6CD24281ACA009885E8 /* WeddingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeddingsViewController.swift; sourceTree = "<group>"; };
+		37C3C6CF24281AD3009885E8 /* CorporateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorporateViewController.swift; sourceTree = "<group>"; };
+		37C3C6D124281ADD009885E8 /* CentralCoastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentralCoastViewController.swift; sourceTree = "<group>"; };
+		37C3C6D324281AE4009885E8 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		37C3C6D524281AEE009885E8 /* PlannersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannersViewController.swift; sourceTree = "<group>"; };
+		37C3C6D724281AF7009885E8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +127,14 @@
 			isa = PBXGroup;
 			children = (
 				37A8AEDD2423106C003B690B /* MainViewController.swift */,
+				37C3C6C924281ABB009885E8 /* BookATourViewController.swift */,
+				37C3C6CB24281AC2009885E8 /* StoryViewController.swift */,
+				37C3C6CD24281ACA009885E8 /* WeddingsViewController.swift */,
+				37C3C6CF24281AD3009885E8 /* CorporateViewController.swift */,
+				37C3C6D124281ADD009885E8 /* CentralCoastViewController.swift */,
+				37C3C6D324281AE4009885E8 /* ContactViewController.swift */,
+				37C3C6D524281AEE009885E8 /* PlannersViewController.swift */,
+				37C3C6D724281AF7009885E8 /* LoginViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -210,9 +234,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37C3C6CC24281AC2009885E8 /* StoryViewController.swift in Sources */,
+				37C3C6D624281AEE009885E8 /* PlannersViewController.swift in Sources */,
+				37C3C6CE24281ACA009885E8 /* WeddingsViewController.swift in Sources */,
+				37C3C6D224281ADD009885E8 /* CentralCoastViewController.swift in Sources */,
 				37A8AEDE2423106C003B690B /* MainViewController.swift in Sources */,
+				37C3C6CA24281ABB009885E8 /* BookATourViewController.swift in Sources */,
+				37C3C6D424281AE4009885E8 /* ContactViewController.swift in Sources */,
 				372DAC26241EFEC900711157 /* AppDelegate.swift in Sources */,
 				372DAC28241EFEC900711157 /* SceneDelegate.swift in Sources */,
+				37C3C6D024281AD3009885E8 /* CorporateViewController.swift in Sources */,
+				37C3C6D824281AF7009885E8 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
