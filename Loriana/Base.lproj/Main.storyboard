@@ -27,6 +27,26 @@
                                                     <constraint firstAttribute="height" constant="800" id="adx-r1-dky"/>
                                                 </constraints>
                                             </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loriana" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R8U-k7-YtX">
+                                                <rect key="frame" x="20" y="300" width="374" height="100"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="Nzo-ri-yaX"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="80"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="S C R o L L" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zW6-bU-gpN">
+                                                <rect key="frame" x="15" y="470" width="379" height="170"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="170" id="vCp-1m-P9F"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gzb-O5-FMM">
                                                 <rect key="frame" x="15" y="650" width="299" height="265"/>
                                                 <subviews>
@@ -87,7 +107,7 @@
                                                                 <color key="textColor" red="0.4527482551" green="0.24521879099999999" blue="0.1155251247" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="We offer an intimate &amp; Italian-inspired retreat that feels worlds away." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YCT-HX-Zz5">
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="We offer an intimate &amp; Italian-inspired retreat that feels worlds away." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YCT-HX-Zz5">
                                                                 <rect key="frame" x="0.0" y="35" width="150" height="70"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <constraints>
@@ -142,7 +162,7 @@
                                                                 <color key="textColor" red="0.4527482551" green="0.24521879099999999" blue="0.1155251247" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Experience our warm hospitality from California’s Central Coast." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xvw-hA-z1K">
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Experience our warm hospitality from California’s Central Coast." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xvw-hA-z1K">
                                                                 <rect key="frame" x="0.0" y="35" width="150" height="70"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <constraints>
@@ -185,7 +205,7 @@
                                                     <constraint firstItem="VzZ-W8-59u" firstAttribute="top" secondItem="tXO-9B-h68" secondAttribute="top" constant="-70" id="zGZ-0H-G50"/>
                                                 </constraints>
                                             </view>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="We’re situated in the coastal wine country halfway between San Francisco and Los Angeles." selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ff6-PY-280">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="We’re situated in the coastal wine country halfway between San Francisco and Los Angeles." selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ff6-PY-280">
                                                 <rect key="frame" x="66" y="1623" width="228" height="75"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
@@ -224,6 +244,9 @@
                                                     <constraint firstAttribute="width" constant="115" id="wbE-G0-kPh"/>
                                                 </constraints>
                                             </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Living Room" translatesAutoresizingMaskIntoConstraints="NO" id="Hu6-Fe-TOb">
+                                                <rect key="frame" x="10" y="1877" width="115" height="200"/>
+                                            </imageView>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aZf-6S-fpV">
                                                 <rect key="frame" x="20" y="2208" width="374" height="390"/>
                                                 <subviews>
@@ -242,7 +265,7 @@
                                                         <color key="textColor" red="0.97635799646377563" green="0.92782282829284668" blue="0.92655700445175171" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9fI-cT-N5w">
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9fI-cT-N5w">
                                                         <rect key="frame" x="70" y="257" width="239" height="108"/>
                                                         <color key="backgroundColor" red="0.4527482551" green="0.24521879099999999" blue="0.1155251247" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <string key="text">500 WEST ORMONDE ROAD
@@ -290,18 +313,6 @@ SAN LUIS OBISPO, CA 93401  OFFICE@LORIANASLO.COM
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loriana" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R8U-k7-YtX">
-                                                <rect key="frame" x="20" y="300" width="374" height="100"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="100" id="Nzo-ri-yaX"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="80"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Living Room" translatesAutoresizingMaskIntoConstraints="NO" id="Hu6-Fe-TOb">
-                                                <rect key="frame" x="10" y="1877" width="115" height="200"/>
-                                            </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DbF-KZ-s1Y">
                                                 <rect key="frame" x="40" y="104" width="50" height="30.5"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -315,15 +326,6 @@ SAN LUIS OBISPO, CA 93401  OFFICE@LORIANASLO.COM
                                                     <color key="titleColor" red="0.71035500979999999" green="0.3443642334" blue="0.17649002280000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="S C R o L L" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zW6-bU-gpN">
-                                                <rect key="frame" x="15" y="470" width="379" height="170"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="170" id="vCp-1m-P9F"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.97635799646377563" green="0.92782282829284668" blue="0.92655700445175171" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
