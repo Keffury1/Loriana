@@ -21,6 +21,7 @@ class MainViewController: UIViewController {
     @IBOutlet weak var menuView: UIView!
     @IBOutlet weak var menuButton1: UIButton!
     @IBOutlet weak var menuButton2: UIButton!
+    @IBOutlet weak var menuStackView: UIStackView!
     
     //MARK: - Views
     
@@ -42,13 +43,10 @@ class MainViewController: UIViewController {
         let screenRect = UIScreen.main.bounds
         let screenWidth = screenRect.size.width
         let screenHeight = screenRect.size.height
-        
         let viewRect = CGRect(x: 0, y: 0, width: screenWidth / 2, height: screenHeight)
-        
         menuView.frame = viewRect
         menuView.layer.backgroundColor = CGColor(srgbRed: 204/255, green: 155/255, blue: 135/255, alpha: 1)
         menuView.alpha = 0
-        
         self.view.addSubview(menuView)
     }
     
