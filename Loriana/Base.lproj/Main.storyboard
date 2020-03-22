@@ -60,8 +60,8 @@
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SAN LUIS OBISPO, CA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="D8p-TD-ibJ">
-                                                        <rect key="frame" x="71" y="210" width="128" height="15"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SAN LUIS OBISPO, CA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="D8p-TD-ibJ">
+                                                        <rect key="frame" x="71" y="210" width="228" height="15"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="15" id="33b-dP-w5Z"/>
                                                         </constraints>
@@ -70,7 +70,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A place as special as the occasion you're celebrating" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gsU-eK-Yl4">
-                                                        <rect key="frame" x="71" y="25" width="198" height="125"/>
+                                                        <rect key="frame" x="71" y="25" width="208" height="125"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="125" id="her-PI-4sH"/>
                                                         </constraints>
@@ -81,12 +81,12 @@
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.45274825507614214" green="0.24521879096590266" blue="0.11552512466783034" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="trailing" secondItem="D8p-TD-ibJ" secondAttribute="trailing" constant="100" id="0NV-tO-t5o"/>
+                                                    <constraint firstAttribute="trailing" secondItem="D8p-TD-ibJ" secondAttribute="trailing" id="0NV-tO-t5o"/>
                                                     <constraint firstAttribute="bottom" secondItem="D8p-TD-ibJ" secondAttribute="bottom" constant="40" id="4KY-Z8-nfF"/>
                                                     <constraint firstAttribute="height" constant="265" id="BSE-ag-hi9"/>
                                                     <constraint firstItem="D8p-TD-ibJ" firstAttribute="top" secondItem="gsU-eK-Yl4" secondAttribute="bottom" constant="60" id="G0z-fE-xAW"/>
                                                     <constraint firstItem="D8p-TD-ibJ" firstAttribute="leading" secondItem="PDa-ne-T6V" secondAttribute="trailing" constant="20" id="Hog-oi-FA6"/>
-                                                    <constraint firstAttribute="trailing" secondItem="gsU-eK-Yl4" secondAttribute="trailing" constant="30" id="M51-Vz-oFf"/>
+                                                    <constraint firstAttribute="trailing" secondItem="gsU-eK-Yl4" secondAttribute="trailing" constant="20" id="M51-Vz-oFf"/>
                                                     <constraint firstAttribute="bottom" secondItem="PDa-ne-T6V" secondAttribute="bottom" constant="40" id="Qfq-FE-o38"/>
                                                     <constraint firstItem="gsU-eK-Yl4" firstAttribute="leading" secondItem="PDa-ne-T6V" secondAttribute="trailing" constant="20" id="W2e-F8-2x0"/>
                                                     <constraint firstItem="PDa-ne-T6V" firstAttribute="leading" secondItem="gzb-O5-FMM" secondAttribute="leading" constant="8" id="k2E-4H-a4u"/>
@@ -132,11 +132,10 @@
                                                             <constraint firstAttribute="height" constant="125" id="bNX-4y-rSj"/>
                                                         </constraints>
                                                     </stackView>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Chairs" translatesAutoresizingMaskIntoConstraints="NO" id="tiF-Gb-MhG">
-                                                        <rect key="frame" x="214" y="60" width="160" height="245"/>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Chairs" translatesAutoresizingMaskIntoConstraints="NO" id="tiF-Gb-MhG">
+                                                        <rect key="frame" x="170" y="40" width="204" height="245"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="245" id="WS6-TU-8uj"/>
-                                                            <constraint firstAttribute="width" constant="160" id="faa-Ht-rHz"/>
                                                         </constraints>
                                                     </imageView>
                                                 </subviews>
@@ -144,9 +143,9 @@
                                                 <constraints>
                                                     <constraint firstAttribute="bottom" secondItem="8Gb-Vg-89k" secondAttribute="bottom" constant="50" id="BmU-EO-BQd"/>
                                                     <constraint firstAttribute="height" constant="235" id="MEG-i3-074"/>
-                                                    <constraint firstItem="tiF-Gb-MhG" firstAttribute="top" secondItem="8Gb-Vg-89k" secondAttribute="top" id="Qnd-wa-1Ri"/>
+                                                    <constraint firstItem="tiF-Gb-MhG" firstAttribute="leading" secondItem="8Gb-Vg-89k" secondAttribute="trailing" constant="10" id="RtD-lO-MLc"/>
                                                     <constraint firstAttribute="trailing" secondItem="tiF-Gb-MhG" secondAttribute="trailing" constant="10" id="bn0-5X-rdc"/>
-                                                    <constraint firstAttribute="bottom" secondItem="tiF-Gb-MhG" secondAttribute="bottom" constant="-70" id="hdS-Bc-deU"/>
+                                                    <constraint firstItem="tiF-Gb-MhG" firstAttribute="top" secondItem="kN4-3W-Y58" secondAttribute="top" constant="40" id="gdd-ug-wf9"/>
                                                     <constraint firstItem="8Gb-Vg-89k" firstAttribute="leading" secondItem="kN4-3W-Y58" secondAttribute="leading" constant="10" id="vEH-3b-a0M"/>
                                                 </constraints>
                                             </view>
@@ -157,16 +156,16 @@
                                                         <rect key="frame" x="224" y="50" width="150" height="125"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CORPORATE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YIk-TO-9PR">
-                                                                <rect key="frame" x="0.0" y="0.0" width="150" height="35"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="150" height="30"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                                 <color key="textColor" red="0.4527482551" green="0.24521879099999999" blue="0.1155251247" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Experience our warm hospitality from California’s Central Coast." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xvw-hA-z1K">
-                                                                <rect key="frame" x="0.0" y="35" width="150" height="70"/>
+                                                                <rect key="frame" x="0.0" y="30" width="150" height="75"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <constraints>
-                                                                    <constraint firstAttribute="height" constant="70" id="SgX-dt-Yys"/>
+                                                                    <constraint firstAttribute="height" constant="75" id="SgX-dt-Yys"/>
                                                                 </constraints>
                                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -188,21 +187,20 @@
                                                         </constraints>
                                                     </stackView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dining Hall" translatesAutoresizingMaskIntoConstraints="NO" id="VzZ-W8-59u">
-                                                        <rect key="frame" x="10" y="-70" width="160" height="245"/>
+                                                        <rect key="frame" x="10" y="-60" width="204" height="245"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="245" id="BIN-n2-ngf"/>
-                                                            <constraint firstAttribute="width" constant="160" id="JfZ-U0-AMS"/>
                                                         </constraints>
                                                     </imageView>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstItem="VzZ-W8-59u" firstAttribute="leading" secondItem="tXO-9B-h68" secondAttribute="leading" constant="10" id="056-8u-z5n"/>
-                                                    <constraint firstItem="VzZ-W8-59u" firstAttribute="bottom" secondItem="R7s-XA-xhI" secondAttribute="bottom" id="3wS-vk-Nb6"/>
                                                     <constraint firstAttribute="height" constant="225" id="CLm-7p-fYD"/>
+                                                    <constraint firstItem="R7s-XA-xhI" firstAttribute="leading" secondItem="VzZ-W8-59u" secondAttribute="trailing" constant="10" id="ERX-Dc-ULg"/>
+                                                    <constraint firstAttribute="bottom" secondItem="VzZ-W8-59u" secondAttribute="bottom" constant="40" id="LxF-Fk-MyU"/>
                                                     <constraint firstAttribute="trailing" secondItem="R7s-XA-xhI" secondAttribute="trailing" constant="10" id="ZkA-iH-GH8"/>
                                                     <constraint firstAttribute="bottom" secondItem="R7s-XA-xhI" secondAttribute="bottom" constant="50" id="hUv-i2-g4o"/>
-                                                    <constraint firstItem="VzZ-W8-59u" firstAttribute="top" secondItem="tXO-9B-h68" secondAttribute="top" constant="-70" id="zGZ-0H-G50"/>
                                                 </constraints>
                                             </view>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="We’re situated in the coastal wine country halfway between San Francisco and Los Angeles." selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ff6-PY-280">
@@ -256,8 +254,8 @@
                                                         <color key="textColor" red="0.97635799646377563" green="0.92782282829284668" blue="0.92655700445175171" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loriana" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="sAH-W1-WDm">
-                                                        <rect key="frame" x="115" y="100" width="144" height="62"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loriana" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="sAH-W1-WDm">
+                                                        <rect key="frame" x="20" y="100" width="334" height="62"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="62" id="cE4-ew-rIw"/>
                                                         </constraints>
@@ -266,7 +264,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9fI-cT-N5w">
-                                                        <rect key="frame" x="70" y="257" width="239" height="108"/>
+                                                        <rect key="frame" x="0.0" y="237" width="374" height="153"/>
                                                         <color key="backgroundColor" red="0.4527482551" green="0.24521879099999999" blue="0.1155251247" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <string key="text">500 WEST ORMONDE ROAD
 SAN LUIS OBISPO, CA 93401  OFFICE@LORIANASLO.COM
@@ -279,17 +277,17 @@ SAN LUIS OBISPO, CA 93401  OFFICE@LORIANASLO.COM
                                                 <color key="backgroundColor" red="0.4527482551" green="0.24521879099999999" blue="0.1155251247" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstItem="sAH-W1-WDm" firstAttribute="leading" relation="lessThanOrEqual" secondItem="dl6-Va-42I" secondAttribute="trailing" constant="45" id="Dh6-ny-ETy"/>
-                                                    <constraint firstItem="9fI-cT-N5w" firstAttribute="top" secondItem="sAH-W1-WDm" secondAttribute="bottom" constant="95" id="Ha3-i1-brm"/>
+                                                    <constraint firstItem="9fI-cT-N5w" firstAttribute="top" secondItem="sAH-W1-WDm" secondAttribute="bottom" constant="75" id="Ha3-i1-brm"/>
                                                     <constraint firstItem="dl6-Va-42I" firstAttribute="leading" secondItem="aZf-6S-fpV" secondAttribute="leading" constant="25" id="OvY-1j-mE4"/>
                                                     <constraint firstItem="dl6-Va-42I" firstAttribute="top" secondItem="aZf-6S-fpV" secondAttribute="top" constant="-50" id="P72-56-Nof"/>
                                                     <constraint firstAttribute="bottom" secondItem="dl6-Va-42I" secondAttribute="bottom" constant="225" id="QD3-vg-s8z"/>
-                                                    <constraint firstAttribute="bottom" secondItem="9fI-cT-N5w" secondAttribute="bottom" constant="25" id="UyU-r3-SdR"/>
+                                                    <constraint firstAttribute="bottom" secondItem="9fI-cT-N5w" secondAttribute="bottom" id="UyU-r3-SdR"/>
                                                     <constraint firstItem="sAH-W1-WDm" firstAttribute="centerX" secondItem="aZf-6S-fpV" secondAttribute="centerX" id="Y5w-52-FsB"/>
                                                     <constraint firstAttribute="height" constant="390" id="dDz-zR-N76"/>
                                                     <constraint firstItem="sAH-W1-WDm" firstAttribute="top" secondItem="aZf-6S-fpV" secondAttribute="top" constant="100" id="jZi-Rr-dhw"/>
-                                                    <constraint firstAttribute="trailing" secondItem="sAH-W1-WDm" secondAttribute="trailing" constant="115" id="n4k-qI-eZI"/>
-                                                    <constraint firstAttribute="trailing" secondItem="9fI-cT-N5w" secondAttribute="trailing" constant="65" id="vR0-hf-Hpb"/>
-                                                    <constraint firstItem="9fI-cT-N5w" firstAttribute="leading" secondItem="aZf-6S-fpV" secondAttribute="leading" constant="70" id="ziY-my-F4h"/>
+                                                    <constraint firstAttribute="trailing" secondItem="sAH-W1-WDm" secondAttribute="trailing" constant="20" id="n4k-qI-eZI"/>
+                                                    <constraint firstAttribute="trailing" secondItem="9fI-cT-N5w" secondAttribute="trailing" id="vR0-hf-Hpb"/>
+                                                    <constraint firstItem="9fI-cT-N5w" firstAttribute="leading" secondItem="aZf-6S-fpV" secondAttribute="leading" id="ziY-my-F4h"/>
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="© 2020 LORIANA, ALL RIGHTS RESERVED" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="jPL-q9-dEr">
@@ -428,6 +426,7 @@ SAN LUIS OBISPO, CA 93401  OFFICE@LORIANASLO.COM
                                         </subviews>
                                         <color key="backgroundColor" red="0.97635799646377563" green="0.92782282829284668" blue="0.92655700445175171" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
+                                            <constraint firstItem="tiF-Gb-MhG" firstAttribute="width" secondItem="VzZ-W8-59u" secondAttribute="width" id="0BS-zP-zWD"/>
                                             <constraint firstItem="a52-r2-tAa" firstAttribute="width" secondItem="Z9G-bc-KCy" secondAttribute="width" id="1Oi-Lm-2TD"/>
                                             <constraint firstItem="tXO-9B-h68" firstAttribute="leading" secondItem="ede-gH-5rT" secondAttribute="leading" constant="20" id="1uD-xc-W3M"/>
                                             <constraint firstItem="aZf-6S-fpV" firstAttribute="top" secondItem="Hu6-Fe-TOb" secondAttribute="bottom" constant="131" id="3ch-X7-DXy"/>
@@ -439,7 +438,7 @@ SAN LUIS OBISPO, CA 93401  OFFICE@LORIANASLO.COM
                                             <constraint firstItem="a52-r2-tAa" firstAttribute="leading" secondItem="asB-6B-ROH" secondAttribute="trailing" constant="70" id="G6d-vl-TVw"/>
                                             <constraint firstAttribute="trailing" secondItem="Ff6-PY-280" secondAttribute="trailing" constant="120" id="Hqz-PS-3jt"/>
                                             <constraint firstItem="jPL-q9-dEr" firstAttribute="leading" secondItem="ede-gH-5rT" secondAttribute="leading" constant="20" id="Htv-y8-qb6"/>
-                                            <constraint firstAttribute="trailing" secondItem="gzb-O5-FMM" secondAttribute="trailing" constant="100" id="IcI-QQ-VQS"/>
+                                            <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="gzb-O5-FMM" secondAttribute="trailing" constant="100" id="IcI-QQ-VQS"/>
                                             <constraint firstItem="a52-r2-tAa" firstAttribute="top" secondItem="tXO-9B-h68" secondAttribute="bottom" constant="162" id="KaX-TA-edg"/>
                                             <constraint firstItem="zW6-bU-gpN" firstAttribute="leading" secondItem="ede-gH-5rT" secondAttribute="leading" constant="15" id="LKq-x0-SDr"/>
                                             <constraint firstItem="gzb-O5-FMM" firstAttribute="top" secondItem="zW6-bU-gpN" secondAttribute="bottom" constant="75" id="OAf-0U-lqi"/>
